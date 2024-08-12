@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: #F2F4F7;
+    padding: 153px 00px;
+}
+.login-from {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.facebook_logo-mobile {
+    display: none;
+}
+.facebook-logo {
+    margin-top: -150px;
+}
+.facebook-logo img {
+    width: 350px;
+    margin-left: -30px;
+}
+.facebook-logo p {
+    color: #1c1e21;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+.input-fild {
+    display: grid;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+.input-box {
+    height: 50px;
+    width: 380px;
+    padding-left: 15px;
+    border: #cecfd1 1px solid;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.log-in button {
+    height: 50px;
+    width: 380px;
+    background-color: #1877F2;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    transition: 1s;
+}
+.log-in button:hover {
+    cursor: pointer;
+    background-color: #3588f5;
+    transition: 1s;
+}
+.login-from a {
+    text-decoration: none;
+    text-align: center;
+}
+.login-from a:hover {
+    text-decoration: underline;
+}
+.create-account {
+    text-align: center;
+    padding-top: 30px;
+}
+.create-account button {
+    background-color: #36A420;
+    color: #FFFFFF;
+    padding: 14px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    transition: 1s;
+}
+.create-account button:hover {
+    cursor: pointer;
+    background-color: #45bd2d;
+    transition: 1s;
+}
+.create-page {
+    text-align: center;
+    padding-top: 30px;
+}
+.create-page p a {
+    text-decoration: none;
+    color: #1c1e21;
+}
+.meta {
+    display: none;
+}

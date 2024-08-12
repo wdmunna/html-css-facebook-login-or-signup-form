@@ -1,0 +1,80 @@
+@media(max-width:768px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 10px;
+    text-align: center;
+}
+.login-from {
+    background-color: #F2F4F7;
+    border-radius: 00px;
+    box-shadow: none;
+}
+.facebook_logo-mobile {
+    display: block;
+    margin-bottom: -50px;
+}
+.facebook_logo-mobile img {
+    width: 60px;
+}
+.facebook-logo {
+    display: none;
+}
+.input-fild {
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.input-box {
+    height: 50px;
+    width: 350px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.log-in {
+    padding: 15px 00px;
+}
+.log-in button {
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.login-from a {
+    font-size: 18px;
+    color: #000;
+}
+hr {
+    display: none;
+}
+.create-account {
+    padding-top: 100px;
+}
+.create-account button {
+    height: 40px;
+    width: 350px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 00px;
+    background-color: #F2F4F7;
+    color: #1877F2;
+    font-weight: 200;
+    border: #1877F2 2px solid;
+}
+.create-account button:hover {
+    background-color: #F2F4F7;
+}
+.create-page {
+    display: none;
+}
+.meta {
+    display: block;
+}
+.meta img {
+    width: 55px;
+}
+}
